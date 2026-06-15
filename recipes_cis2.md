@@ -21,6 +21,10 @@ This document provides the list of Security Zone recipes assigned to Landing Zon
 |--------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | Deny public access | **public_buckets**<br>Object Storage buckets in a security zone can't be public.                                                  |
 | Deny public access | **db_instance_public_access**<br>Databases in a security zone can't be assigned to public subnets. They must use private subnets. |
+| Require encryption | **boot_volume_without_​vault_key**<br>Boot volumes in the security zone must use a customer-managed master encryption key in the Vault service. They can't use the default encryption key managed by Oracle. |
+| Require encryption | **block_volume_without_vault_key**<br>Block volumes in a security zone must use a customer-managed master encryption key in the Vault service. They can't use the default encryption key managed by Oracle. |
+| Require encryption | **buckets_without_vault_key**<br>Object Storage buckets in a security zone must use a customer-managed master encryption key in the Vault service. They can't use the default encryption key managed by Oracle. |
+| Require encryption | **file_system_without_vault_key**<br>File systems in the security zone must use a customer-managed master encryption key in the Vault service. They can't use the default encryption key managed by Oracle. |
 
 &nbsp;
 
@@ -33,7 +37,7 @@ This document provides the list of Security Zone recipes assigned to Landing Zon
 | Restrict modification | **delete_vcn_security_list**<br>You can't delete a VCN security list in the security zone.                                                     |
 | Restrict modification | **delete_network_security_group**<br>You can't delete a VCN network security group in the security zone.                                       |
 > [!NOTE]
-> **RECIPE 02** includes the 2 policies from **RECIPE 01** and adds 4 additional policies.<br>In total, **RECIPE 02** contains 6 policies
+> **RECIPE 02** includes the 6 policies from **RECIPE 01** and adds 4 additional policies.<br>In total, **RECIPE 02** contains 10 policies
 
 
 &nbsp;
@@ -66,7 +70,7 @@ This document provides the list of Security Zone recipes assigned to Landing Zon
 | Restrict association  | **block_volume_in_security_zone_attach_to_instance_not_in_security_zone**<br>You can't attach a block storage volume in the security zone to a Compute instance that isn't in the same security zone. |
 | Restrict association  | **block_volume_not_in_security_zone_attach_to_instance_in_security_zone**<br>You can't attach a block storage volume to a Compute instance in the security zone if the volume isn't in the same security zone. |
 > [!NOTE]
-> **RECIPE 03** includes the 2 policies from **RECIPE 01** and the 4 policies from **RECIPE 02**, and adds 22 additional policies.<br>In total, **RECIPE 03** contains 28 policies.
+> **RECIPE 03** includes the 6 policies from **RECIPE 01** and the 4 policies from **RECIPE 02**, and adds 22 additional policies.<br>In total, **RECIPE 03** contains 32 policies.
 
 &nbsp;
 &nbsp;
