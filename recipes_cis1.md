@@ -5,6 +5,7 @@ The One-OE Landing Zone implements **CIS Level 1** controls through a set of lay
 This document provides the list of Security Zone recipes assigned to Landing Zone compartments based on their security requirements. These assignments help establish a consistent and scalable security posture across the compartment hierarchy.
 
 &nbsp;
+
 #### [Security Zone](https://docs.oracle.com/en-us/iaas/Content/security-zone/using/security-zones.htm) and [Recipe](https://docs.oracle.com/en-us/iaas/Content/security-zone/using/managing-recipes.htm) assignment across the [One-OE](https://github.com/oci-landing-zones/oci-landing-zone-operating-entities/tree/master/blueprints/one-oe) Landing Zone compartment hierarchy
 <img src="./sz-cis1.png" width="700" height="value">
 
