@@ -20,7 +20,7 @@
 | Restrict movement     | **subnet_in_security_zone_move_to_compartment_not_in_security_zone**<br>You can't move a subnet in a security zone to a compartment that is not in the same security zone. |
 | Restrict modification | **delete_vcn_security_list**<br>You can't delete a VCN security list in the security zone.                                                     |
 | Restrict modification | **delete_network_security_group**<br>You can't delete a VCN network security group in the security zone.                                       |
-> [!NOTE]
+> [!INFO]
 > **RECIPE 02** includes the 2 policies from **RECIPE 01** and adds 4 additional policies.<br>In total, **RECIPE 02** contains 6 policies
 
 
@@ -53,7 +53,7 @@
 | Restrict association  | **boot_volume_in_security_zone_attach_to_instance_not_in_security_zone**<br>You can't attach a boot volume in the security zone to a Compute instance that isn't in the same security zone. |
 | Restrict association  | **block_volume_in_security_zone_attach_to_instance_not_in_security_zone**<br>You can't attach a block storage volume in the security zone to a Compute instance that isn't in the same security zone. |
 | Restrict association  | **block_volume_not_in_security_zone_attach_to_instance_in_security_zone**<br>You can't attach a block storage volume to a Compute instance in the security zone if the volume isn't in the same security zone. |
-> [!NOTE]
+> [!INFO]
 > **RECIPE 03** includes the 2 policies from **RECIPE 01** and the 4 policies from **RECIPE 02**, and adds 22 additional policies.<br>In total, **RECIPE 03** contains 28 policies.
 
 &nbsp;
