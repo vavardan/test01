@@ -2,12 +2,12 @@
 
 
 &nbsp;
-
+#### Security Zone and Recipe assignment across the One-OE Landing Zone compartment hierarchy
 <img src="./sz-cis1.png" width="700" height="value">
 
 &nbsp;
 
-**<img src="./rec01.png"  height="40" align="center"> (CIS Level 1)**
+**<img src="./rec01.png"  height="50" align="center">  - CIS Level 1**
 
 | Category           | DENY policy and description                                                                                                       |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------------------|
@@ -16,7 +16,7 @@
 
 &nbsp;
 
-**<img src="./rec02.png"  height="40" align="center">**
+**<img src="./rec02.png"  height="50" align="center">**
 | Category              | DENY policy and description                                                                                                                    |
 |-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
 | Includes              | **RECIPE 01**                                                                                                                                  |
@@ -30,7 +30,7 @@
 
 &nbsp;
 
-**<img src="./rec03.png"  height="40" align="center">**
+**<img src="./rec03.png"  height="50" align="center">**
 | Category              | DENY policy and description                                                                                                                                                             |
 |-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Includes              | **RECIPE 01**                                                                                                                                                                           |
