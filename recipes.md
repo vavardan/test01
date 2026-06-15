@@ -3,7 +3,7 @@
 
 &nbsp;
 
-<img src="./sz-cis1.png" width="500" height="value">
+<img src="./sz-cis1.png" width="700" height="value">
 
 &nbsp;
 
