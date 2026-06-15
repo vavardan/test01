@@ -3,6 +3,10 @@
 
 &nbsp;
 
+<img src="./sz-cis1.png" width="500" height="value">
+
+&nbsp;
+
 **RECIPE 01 (CIS Level 1)**
 
 | Category           | DENY policy and description                                                                                                       |
