@@ -19,7 +19,7 @@ This document provides the list of Security Zone recipes assigned to One-OE Land
 
 &nbsp;
 
-### **<img src="./logo1.png"  height="50" align="center">  - CIS Level 1**
+### **[<img src="./logo1.png"  height="50" align="center">](https://github.com/vavardan/test01/blob/main/recipes_cis1.md#----cis-level-1)  - CIS Level 1**
 
 | Category           | DENY policy and description                                                                                                       |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------------------|
