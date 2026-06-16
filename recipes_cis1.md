@@ -12,7 +12,10 @@ This document provides the list of Security Zone recipes assigned to One-OE Land
 &nbsp;
 
 > [!IMPORTANT]
-> These Security Zone recipes provide a minimum baseline of security controls for **CIS Level 1** environments. Additional Security Zone policies and controls should be implemented to align with organizational security requirements, compliance obligations, and risk tolerance.
+> - These Security Zone recipes provide a minimum baseline of security controls for **CIS Level 1** environments. Additional Security Zone policies and controls should be implemented to align with organizational security requirements, compliance obligations, and risk tolerance.
+>
+> 
+> - Security Zone policies are enforced based on the recipe assigned to the Security Zone associated with a compartment. When a child compartment is assigned a different Security Zone, only the policies defined in that Security Zone's recipe are enforced for resources within the child compartment.
 
 &nbsp;
 
@@ -67,7 +70,7 @@ This document provides the list of Security Zone recipes assigned to One-OE Land
 | Restrict association  | **block_volume_in_security_zone_attach_to_instance_not_in_security_zone**<br>You can't attach a block storage volume in the security zone to a Compute instance that isn't in the same security zone. |
 | Restrict association  | **block_volume_not_in_security_zone_attach_to_instance_in_security_zone**<br>You can't attach a block storage volume to a Compute instance in the security zone if the volume isn't in the same security zone. |
 > [!NOTE]
-> **RECIPE 03** includes the 2 policies from **RECIPE 01** and the 4 policies from **RECIPE 02**, and adds 22 additional policies.<br>In total, **RECIPE 03** contains 28 policies.
+> **RECIPE 03** includes all policies from  **RECIPE 01** and **RECIPE 02** and adds 22 additional policies.<br>In total, **RECIPE 03** contains 28 policies.
 
 &nbsp;
 &nbsp;
