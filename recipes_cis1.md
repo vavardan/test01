@@ -7,7 +7,7 @@ This document provides the list of Security Zone recipes assigned to One-OE Land
 &nbsp;
 
 #### [Security Zone](https://docs.oracle.com/en-us/iaas/Content/security-zone/using/security-zones.htm) and [Recipe](https://docs.oracle.com/en-us/iaas/Content/security-zone/using/managing-recipes.htm) assignment across the [One-OE](https://github.com/oci-landing-zones/oci-landing-zone-operating-entities/tree/master/blueprints/one-oe) Landing Zone compartment hierarchy
-<img src="./sz-cis1.png" width="725" height="value">
+<img src="./sz-desing.png" width="725" height="value">
 
 &nbsp;
 
@@ -19,7 +19,7 @@ This document provides the list of Security Zone recipes assigned to One-OE Land
 
 &nbsp;
 
-**<img src="./rec01.png"  height="50" align="center">  - CIS Level 1**
+**<img src="./logo1.png"  height="50" align="center">  - CIS Level 1**
 
 | Category           | DENY policy and description                                                                                                       |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------------------|
@@ -28,7 +28,7 @@ This document provides the list of Security Zone recipes assigned to One-OE Land
 
 &nbsp;
 
-**<img src="./rec02.png"  height="50" align="center">**
+**<img src="./logo2.png"  height="50" align="center">**
 | Category              | DENY policy and description                                                                                                                    |
 |-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
 | Includes              | **RECIPE 01**                                                                                                                                  |
@@ -42,7 +42,7 @@ This document provides the list of Security Zone recipes assigned to One-OE Land
 
 &nbsp;
 
-**<img src="./rec03.png"  height="50" align="center">**
+**<img src="./logo3.png"  height="50" align="center">**
 | Category              | DENY policy and description                                                                                                                                                             |
 |-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Includes              | **RECIPE 01**                                                                                                                                                                           |
