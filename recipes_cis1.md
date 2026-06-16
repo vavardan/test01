@@ -28,7 +28,7 @@ This document provides the list of Security Zone recipes assigned to One-OE Land
 
 &nbsp;
 
-**<img src="./logo2.png"  height="50" align="center">**
+### **<img src="./logo2.png"  height="50" align="center">**
 | Category              | DENY policy and description                                                                                                                    |
 |-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
 | Includes              | **RECIPE 01**                                                                                                                                  |
